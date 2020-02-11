@@ -27,7 +27,7 @@ nnoremap <C-l> <End>
 nnoremap <C-h> <home>
 nnoremap <C-i> :s/\([0-9a-zA-Z_]\+\),/\.\1(\1),/g <CR> <C-j>
 nnoremap <C-u> :s/,/;/g <CR> <C-j>
-nnoremap <C-t> :tag<CR>
+nnoremap <C-t> <C-]>
 nnoremap ul :UltiSnipsEdit<CR>
 nnoremap sf :syntax off<CR>
 nnoremap so :syntax on<CR>
