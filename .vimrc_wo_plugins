@@ -1,0 +1,50 @@
+" For Vundle
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+
+set clipboard=unnamed
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+set backspace=indent,eol,start
+
+" key mapping
+inoremap <C-j> <Esc>:w<CR>
+inoremap <C-k> <Esc>:x<CR>
+inoremap <C-l> <End>
+inoremap <C-f> <C-x><C-f>
+nnoremap q :q<CR>
+nnoremap f :w<CR>
+nnoremap <C-l> <End>
+nnoremap <C-h> <home>
+nnoremap <C-i> :s/\([0-9a-zA-Z_]\+\),/\.\1(\1),/g <CR> <C-j>
+nnoremap <C-u> :s/,/;/g <CR> <C-j>
+nnoremap <C-t> <C-]>
+nnoremap sf :syntax off<CR>
+nnoremap so :syntax on<CR>
+nnoremap vs :vsplit<CR>
+nnoremap hs :split<CR>
+nnoremap wl <C-w>l
+nnoremap wh <C-w>h
+nnoremap wj <C-w>j
+nnoremap wk <C-w>k
+nnoremap wz :tabedit %<CR>
+nnoremap wo :tabclose<CR>
+nnoremap rl :e<CR>
+nnoremap <C-r> :! cd %:p:h; python %<CR>
+nnoremap O o<Esc>:w<CR>
+
+
+highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffDelete cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffChange cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red
+highlight DiffText   cterm=bold ctermfg=10 ctermbg=88 gui=none guifg=bg guibg=Red
+highlight Folded guibg=NONE
+highlight Directory cterm=bold
+
+set foldmethod=indent
+set foldlevel=20
+
+
+syntax on
+set ruler
+set tags=tags
