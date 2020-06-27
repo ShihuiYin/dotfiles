@@ -61,7 +61,7 @@
             "foreground": "#3F3F3F",
             "black": "#0C0C0C",
             "blue": "#0037DA",
-            "green": "#13A10E",
+            "green": "#E3F7E3", // disable green background color for directory
             "red": "#C50F1F",
             "white": "#CCCCCC",
             "yellow": "#C19C00",
