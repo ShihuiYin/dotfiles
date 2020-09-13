@@ -22,7 +22,7 @@ nnoremap <C-t> <C-]>
 nnoremap sf :syntax off<CR>
 nnoremap so :syntax on<CR>
 nnoremap vs :vsplit<CR>
-nnoremap hs :split<CR>
+nnoremap ss :split<CR>
 nnoremap wl <C-w>l
 nnoremap wh <C-w>h
 nnoremap wj <C-w>j
